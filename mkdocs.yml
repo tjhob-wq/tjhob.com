@@ -1,7 +1,11 @@
 site_name: T.J. Hob
-theme: terminal
+theme:
+  name: terminal
+  palette: dark
+  # custom_dir: overrides
 nav:
   - Home: index.md
   - Past Projects: projects/past_projects.md
   - Writings:
       - 2024-09: 2024/2024-09.md
+  - Social: https://fedia.social/@TJHob
