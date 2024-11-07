@@ -1,11 +1,18 @@
 site_name: T.J. Hob
+site_description: The personal website of T.J. Hob - professional data dork, amateur homesteader, something of a hacker
+site_url: https://tjhob.com
 theme:
   name: terminal
   palette: dark
-  # custom_dir: overrides
+  custom_dir: overrides
 nav:
   - Home: index.md
   - Past Projects: projects/past_projects.md
   - Writings:
       - 2024-09: 2024/2024-09.md
-  - Social: https://fedia.social/@TJHob
+      - 2024-10: 2024/2024-10.md
+      - 2024-11: 2024/2024-11.md
+  - Tech Social: https://fedia.social/@TJHob
+  - Farm Social: https://homestead.social/@TJHob
+plugins:
+  - rss
