@@ -5,14 +5,19 @@ theme:
   name: terminal
   palette: dark
   custom_dir: overrides
+  features:
+    - navigation.side.indexes
 nav:
   - Home: index.md
   - Past Projects: projects/past_projects.md
-  - Writings:
+  - Long Form:
+      - Back to the Land: long/back_to_the_land.md
+  - Updates:
       - 2024-09: 2024/2024-09.md
       - 2024-10: 2024/2024-10.md
       - 2024-11: 2024/2024-11.md
-  - Tech Social: https://fedia.social/@TJHob
-  - Farm Social: https://homestead.social/@TJHob
+  - Tech Mastodon: https://fedia.social/@TJHob
+  - Farm Mastodon: https://homestead.social/@TJHob
 plugins:
-  - rss
+  - rss:
+      abstract_chars_count: -1
