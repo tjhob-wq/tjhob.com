@@ -1,3 +1,4 @@
 mkdocs
 mkdocs-terminal
 mkdocs-rss-plugin
+mkdocs-git-revision-date-plugin

@@ -1,6 +1,6 @@
 site_name: T.J. Hob
 site_author: T.J. Hob
-site_description: The personal website of T.J. Hob - professional data dork, amateur homesteader, something of a hacker
+site_description: The personal website of T.J. Hob - professional data dork, amateur homesteader, curiosity-driven hacker
 site_url: https://tjhob.com
 theme:
   name: terminal
@@ -8,17 +8,25 @@ theme:
   custom_dir: overrides
   features:
     - navigation.side.indexes
+    - revision.date
 nav:
   - Home: index.md
   - Past Projects: projects/past_projects.md
   - Long Form:
       - Back to the Land: long/back_to_the_land.md
+      - Why Veilid: long/why_veilid.md
   - Updates:
       - 2024-09: 2024/2024-09.md
       - 2024-10: 2024/2024-10.md
       - 2024-11: 2024/2024-11.md
-  - Tech Mastodon: https://fedia.social/@TJHob
-  - Farm Mastodon: https://homestead.social/@TJHob
+  - Tech Fedi: https://corteximplant.com/@dumont
+  - Farm Fedi: https://homestead.social/@TJHob
 plugins:
   - rss:
       abstract_chars_count: -1
+      date_from_meta:
+        as_creation: "date"
+        as_update: "git"
+        datetime_format: "%Y-%m-%d %H:%M"
+        default_timezone: UTC
+  - git-revision-date
