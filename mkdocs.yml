@@ -13,12 +13,14 @@ nav:
   - Home: index.md
   - Past Projects: projects/past_projects.md
   - Long Form:
+      - Privacy Basics: long/privacy_basics.md
       - Back to the Land: long/back_to_the_land.md
       - Why Veilid: long/why_veilid.md
   - Updates:
-      - 2024-09: 2024/2024-09.md
-      - 2024-10: 2024/2024-10.md
+      - 2024-12: 2024/2024-12.md
       - 2024-11: 2024/2024-11.md
+      - 2024-10: 2024/2024-10.md
+      - 2024-09: 2024/2024-09.md
   - Tech Fedi: https://corteximplant.com/@dumont
   - Farm Fedi: https://homestead.social/@TJHob
 plugins:
