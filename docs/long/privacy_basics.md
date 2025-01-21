@@ -1,6 +1,10 @@
 # Privacy Basics (as of 2025-01)
 
-Here are some privacy thoughts and recommendations, specifically for less tech-y people who just want to use tech and not be constantly stalked by every site, bro, cop, and advertiser on Earth.
+Here are some privacy thoughts and recommendations, specifically for less tech-y people who just want to use tech and not be constantly stalked by every site, bro, cop, and advertiser on Earth. If you're not sold on why that should be important to you, [this](https://ideas.ted.com/why-online-privacy-matters-and-how-to-protect-yours/) may help. It's also worth remembering:
+
+- Things that used to require a warrant for police to get at, they are legally allowed to purchase from large data clearing houses and use against you.
+
+- What is legal / not a big deal for employers is very likely to change significantly in the near future. Your milquetoast take that climage change is bad, or that certain politicians suck, may become a fireable / jailable offence with little-to-no warning.
 
 ## Basic philosophy
 
@@ -10,23 +14,25 @@ Here are some privacy thoughts and recommendations, specifically for less tech-y
 
 - I'm trying not to do details on configuration on this list, but configuration is important! Happy to answer questions or point people to better resources if anyone adopts any of this.
 
+- Some things are worth paying for. Especially things that protect your privacy. When dealing with for-profit companies, stick to those that commit to providing value directly to customers in exchange for direct payment. Most terrible things that happen in privacy these days are driven by trying to monetize "free" services (though plenty of paid services also do this to "get a little on the side"). Stick with reputable companies recommended by groups like the EFF, ACLU, etc.
+
 - There are diverse opinions on this stuff. Excellent lists (that I disagree with on some points, but are WAY more thorough) are available at [EFF](https://ssd.eff.org/) and [Privacy Guides](https://www.privacyguides.org/en/).
 
 ## Easy recommendations
 
 - Search engine: [DuckDuckGo](https://duckduckgo.com/) has been my only search engine for years, it's vastly better than Google at this point, and has less intrusive ads, without all of the creepy tracking and surveillance. You can just change this in your browser settings and feel a little better about people being able to read your search history.
 
-- Desktop browser for general use: [Librewolf](https://librewolf.net/) is a privacy focused Firefox fork, but behaves like a normal browser. I suggest using it with the Ublock Origin, Privacy Badger, and Facebook Container extensions. If you have a password manager, their extension as well. The fewer other extensions you add, the better. Configuring a browser for privacy should be covered below if I remember. [Vivaldi](https://vivaldi.com/) is also a good choice, but I'm not as familiar with it.
+- Desktop browser for general use: [Librewolf](https://librewolf.net/) is a privacy focused Firefox fork, but behaves like a normal browser. I suggest using it with the Ublock Origin, Privacy Badger, and Facebook Container extensions. If you have a password manager, their extension as well. The Facebook Container extension uses a nice Firefox feature that allows you to segment your browsing data so that, say, your "Banking" tabs don't share cookies with your "Social Media" tabs without having to go to private browsing all of the time, further complicating tracking you. The fewer other extensions you add, the better. Configuring a browser for privacy should be covered below if I remember. [Vivaldi](https://vivaldi.com/) is also a good choice if you need compatibility with Chrome, but I'm not as familiar with it.
 
-- Desktop & Mobile browser for sensitive browsing: [Tor Browser](https://torproject.org/) Tor is a complicated topic, but it's the best we've got right now for evading surveillance and censorship. It's not a top recommendation for a daily driver as it tends to be slow and a lot of sites block known Tor nodes.
+- Desktop & Mobile browser for sensitive browsing: [Tor Browser](https://torproject.org/) Tor is a complicated topic, but it's the best we've got right now for evading surveillance and censorship. It's not a top recommendation for a daily driver as it tends to be slow and a lot of sites block known Tor nodes. [This video](https://neat.tube/w/6HDQH1wnTACKFHh2u1CRQ5) explains pretty well the differences between Tor, VPN, and what each does (and doesn't) protect you from. [The Tor FAQ](https://support.torproject.org/faq/staying-anonymous/) has more details.
 
-- Phone browser: [Vivaldi](https://vivaldi.com/) or [DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/browser/). I recommend having the browser clear everything frequently. It takes some getting used to, but helps prevent a lot of random tabs collecting and data sharing between sites.
+- Phone browser: [DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/browser/) or [Vivaldi](https://vivaldi.com/) (though again I'm not as familiar with this and it's best if you need something that is only supported in Chrome derivitave browsers). I recommend having the browser clear everything frequently. It takes some getting used to, but helps prevent a lot of random tabs collecting and data sharing between sites.
 
 - Uninstall phone apps, as many as you can. When you use a web browser to access things there are a number of privacy and security restrictions in place. Phone apps can do a lot more, so if you _can_ do a thing in the privacy-centric browser that's a better option than using an app. The permissions an app asks for are usually shown in the store you're downloading from so it's good to get in the habit of seeing if those actually make sense. Selling personal data acquired from apps is a [huge business that puts people at risk](https://www.wired.com/story/gravy-location-data-app-leak-rtb/).
 
 - Turn off biometrics (face unlock / fingerprint unlock) on your phone and only use unlock codes. There are [conflicting](https://reason.com/2024/04/19/appeals-court-rules-that-cops-can-physically-make-you-unlock-your-phone/) [opinions](https://www.pcmag.com/news/court-cops-cant-force-you-to-unlock-a-phone-with-biometrics) about whether police can force you to unlock with biometrics, but why risk it?
 
-- [VPN](https://neat.tube/w/6HDQH1wnTACKFHh2u1CRQ5): [Proton](https://proton.me/). Yes their CEO has dubious, probably shitty, politics. This is one place where I deal with it because I want someone who will firmly stand up to censorship. After all, if it can be used against your enemies, it can and will be used against you eventually. Being located in Switzerland is a big plus. VPNs are a big topic, and can complicate things like accessing things on your home network, but good ones are also the number 1 easiest and best way to keep your internet provider from selling a list of every site you visit to literally anyone who asks, and to reduce everyone else's ability to track you. They can also filter an absolute ton of ads and trackers, increasing safety and speeding up browsing substantially.
+- VPN: Here's that [explainer video](https://neat.tube/w/6HDQH1wnTACKFHh2u1CRQ5) again. I go with [Proton](https://proton.me/), people whose opinions I respect use [NordVPN](https://nordvpn.com). There are a LOT of shitty VPNs out there that are worse than not using one at all, especially free ones. Yes their CEO has dubious, probably shitty, politics. This is one place where I deal with it because I want someone who will firmly stand up to censorship. After all, if it can be used against your enemies, it can and will be used against you eventually. Being located in Switzerland is a big plus. VPNs are a big topic, and can complicate things like accessing things on your home network, but good ones are also the number 1 easiest and best way to keep your internet provider from selling a list of every site you visit to literally anyone who asks. They can also filter an absolute ton of ads and trackers, increasing safety, usability, and speeding up browsing substantially. Be wary of "best VPN services" articles, the proliferation of affiliate programs in this space means that a lot of them hype services just to get paid.
 
 - Password manager: [Proton](https://proton.me/) again. It comes free with your proton account, works as well as any other I've used (and I've used many), and can do things like automatically create a forwarding email address for each site you sign up for so you can tell who's selling your email / delete it so you stop getting mail from them.
 
@@ -63,6 +69,7 @@ These first two a projects are developed by someone who seens to be kind of an a
 
 ### Facebook-like
 
+- [Friendica](https://dir.friendica.social/servers)
 - [Diaspora](https://diasporafoundation.org/)
 
 ## "Medium effort" recommendations
